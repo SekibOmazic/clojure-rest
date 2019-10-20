@@ -1,6 +1,6 @@
 # clojure-rest
 
-This is a simple playground for clojure and postgreSQL. It exposes a simple API end point for some REST experimenting. Based on cool [this cool article](https://itnext.io/getting-started-with-clojure-e8f207ff8eab)
+This is a simple playground for clojure and postgreSQL. It exposes a simple API end point for some REST experimenting. Based on [this cool article](https://itnext.io/getting-started-with-clojure-e8f207ff8eab)
 
 
 ## Installation
