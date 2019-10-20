@@ -13,8 +13,9 @@ Clone the repo from `https://github.com/SekibOmazic/clojure-rest`
 Make sure you have `docker` and `leiningen` installed on your machine. Then:
 
 1. run `./startdb.sh` from the terminal to start Postgresql in a docker container
-2. lein run server
+2. `lein run server`
 3. point your browser to http://localhost:3000/friends to get a list of friends
-4. to add a new friend do this from your terminal: `curl localhost:3000/friends -X POST -H "Content-Type: application/json" -d {"name": "John Doe", "nickname": "Joey", "occupation":"doctor"}`
-
-
+4. to add a new friend do this from your terminal: 
+```
+curl localhost:3000/friends -X POST -H "Content-Type: application/json" -d {"name": "John Doe", "nickname": "Joey", "occupation":"doctor"}
+```
